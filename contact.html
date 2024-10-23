@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <title>Meet the love of your life ASAP</title>
+    <header>
+        <a class="button0" href="index.html">🚪 Welcome bro</a>
+        <a class="button1" href="youandi.html">♥ You & I</a>
+        <a class="button2" href="memes.html">🤪 Memes bank</a>
+        <a class="button3" href="poem.html">🖋 Inspired</a>
+        <a class="button4" href="contact.html">🕵️‍♀️ Leave a note</a>
+        </header>
+</head>
+    <main>
+        <h1>Pssst...</h1>
+        <h2>Envoi moi un petit message</h2>
+        <section id="container">
+            <form action="mailto:maelle.dyon@gmail.com" method="post">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Mister Peyo"readonly>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="subject"> Objet : Gloire à ma reine</label readonly> <br>
+                <select class="option" id="subject" name="subject">
+                    <option value="confession">Je dois faire une confession</option>
+                    <option value="iloveher">Je veux lui dire que je l'aime</option>
+                    <option value="best">C'est la meilleure  </option>
+                </select>
+                <br>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

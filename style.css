@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:url("background.jpg");
+    margin: 0;
+    padding: 50px;
+}
+h1 {
+    color: #fff;
+}
+h2 {
+    color: #ff69b4;
+    font-style: italic;
+}
+/*Nav */
+.button0 {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #30bd45;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+    .button1 {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.button2 {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #df35eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+.button3 {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #a62cdf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+.button4 {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #d5d570;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+.welcome {
+    color: rgb(255, 220, 24);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: oblique;
+}
+.welcomeimg {
+    border-radius: 30%;
+    box-shadow: 15px 0px 15px #a804cd;
+}
+#response {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: inline-block;
+}
+#content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+     /*Page index poème*/
+.poem {
+    font-weight: bold;
+    color:#ffcc00;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    .header a {
+        padding: 10px 20px; 
+    }
+    h1, h2 {
+        font-size: 1.5em; 
+    }
+    .welcomeimg {
+        border-radius: 30%;
+        box-shadow: 15px 0px 15px #a804cd;
+        width: 90%;
+    }
+   
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2em;
+    }
+    .button0, .button1, .button2, .button3, .button4 {
+        font-size: 12px; 
+        padding: 8px 10px;
+    }
+    video {
+        width: 100%; 
+    }
+}
+}
